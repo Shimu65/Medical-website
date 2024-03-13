@@ -1,0 +1,99 @@
+/* common css and rest code  */
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    overflow: hidden;
+}
+#hero-section{
+    background-image: url('images/element\ \(2\).png');
+    background-position: top left;
+    background-repeat: no-repeat;
+
+}
+
+.hr-style{
+    border: 2px solid black;
+    width: 100px;
+    margin: 0 auto;
+    opacity: 1;
+}
+.hr-style2{
+    border: 2px solid black;
+    width: 100px;
+   
+    opacity: 1;
+}
+.service-image{
+    width: 100px;
+    object-fit: contain;
+    height: 30%;
+}
+.card{
+    border: none;
+
+}
+.service-card{
+    box-shadow: 5px 5px 10px rgba(128, 128, 0, 0.155),-5px -5px 10px rgba(128, 128, 128, 0.155);
+}
+
+#our-service{
+  
+    background-image: url('images/Vector.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+#blog .container{
+    background-image: url('images/element\ \(1\).png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+
+.my-btn{
+    text-decoration: none;
+}
+/* caroesul  */
+.carousel-indicators button{
+    height: 10px !important;
+    width: 10px !important ;
+    border-radius: 50%;
+}
+.hr-style5{
+    border: 2px solid white;
+    width: 100px;
+    opacity: 1;
+   margin: auto;   
+}
+.carousel-control-prev{
+    top: auto;
+    bottom: 20px;
+}
+.carousel-control-next{
+    top: auto;
+    bottom: 20px;
+}
+
+
+
+footer{
+    background-image: linear-gradient(#64BBF3,#5C9FF2);
+}
+footer ul{
+    padding: 0;
+
+
+}
+footer ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+footer ul li a{
+    text-decoration: none;
+}
+footer h4{
+    font-weight: bold;
+}
